@@ -2185,6 +2185,7 @@
             set: valueSet,
             setHandle: valueSetHandle,
             reset: valueReset,
+            calcPointToPercentage: calcPointToPercentage,
             // Exposed for unit testing, don't use this in your application.
             __moveHandles: function (upward, proposal, handleNumbers) {
                 moveHandles(upward, proposal, scope_Locations, handleNumbers);

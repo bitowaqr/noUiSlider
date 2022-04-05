@@ -2984,6 +2984,7 @@ function scope(target: TargetElement, options: ParsedOptions, originalOptions: O
         set: valueSet,
         setHandle: valueSetHandle,
         reset: valueReset,
+        calcPointToPercentage: calcPointToPercentage,
         // Exposed for unit testing, don't use this in your application.
         __moveHandles: function (upward: boolean, proposal: number, handleNumbers: number[]) {
             moveHandles(upward, proposal, scope_Locations, handleNumbers);
